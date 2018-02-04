@@ -49,9 +49,7 @@ body {
   color: #000;
   font-size: 12px;
   line-height: 1.4;
-  font-family: Helvetica, Arial, sans-serif;
-  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-   background-size: cover;
+  font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -65,11 +63,27 @@ width: 100%;
 margin: auto;
 height: 500px;
 
+
 }
 
 header {
+ background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  height:500px;
+}
+
+ul li {
+  font-size: 13px;
+  box-sizing: border-box;
+  margin: 5px 0 0 5px;
 
 }
+ ul{
+
+  margin: 20px 0 0 50px;
+ }
+
+
 
 footer {
 
@@ -78,3 +92,118 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+.logo{
+float: left;
+margin-left: 10%;
+font-size: 24px;
+
+}
+
+.top h1 {
+font-size: 24px;
+
+}
+
+.getit {
+  border: 5px solid;
+  width: 200px;
+  height: 30px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  margin-top: 20%;
+  font-size:14px;
+  
+}
+
+.benefit {
+background-color: #f0efef;
+}
+
+
+.innerbenefit{
+float:left;
+margin: 10% 0 0 15%;
+width:350px;
+box-sizing: border-box;
+
+}
+
+.innerbenefit h1{
+font-size: 20px;
+}
+
+.innerbenefit p {
+margin-top: 15px;
+font-size: 13px;
+}
+
+
+.bottom{
+  font-size:18px;
+  color: white;
+  background: url(../images/testimonial_bg.jpg);
+  display:block;
+  position:relative;
+}
+
+.quote{
+  width: 393px;
+  position: absolute;
+  left: 35%;
+  top: 30%;
+
+}
+
+.insidebottom{
+  border: 1px solid black;
+  width:100%;
+  height: 50px;
+  position:absolute;
+  bottom:0;
+
+}
+
+.signup {
+  border: 5px solid;
+  font-size: 12px;
+  width:200px;
+  margin: auto;
+
+
+}
+.yellow {
+background-color: #f9e42e;
+}
+
+
+.dblue {
+  background-color: #033048;
+}
+
+.lgrey{
+color: #606161;
+}
+
+.ablack{
+color: #121212;
+}
+
+.light{
+  font-weight: 300;
+}
+
+.lightitalic {
+font-weight: 300
+font-style: italic;
+}
+
+.semibold{
+  font-weight: 600;
+}
+
+.extrabold{
+  font-weight: 800;
+}
+
+
