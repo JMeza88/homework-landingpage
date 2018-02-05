@@ -76,18 +76,6 @@ header {
 
 }
 
-ul li {
-  font-size: 13px;
-  box-sizing: border-box;
-  margin: 5px 0 0 5px;
-
-}
- ul{
-
-  margin: 20px 0 0 50px;
- }
-
-
 
 footer {
 background-color: black;
@@ -160,6 +148,18 @@ font-size: 20px;
 margin-top: 15px;
 font-size: 13px;
 }
+
+ul li {
+  font-size: 13px;
+  box-sizing: border-box;
+  margin: 5px 0 0 5px;
+
+}
+ ul{
+
+  margin: 20px 0 0 50px;
+ }
+
 
 
 .bottom{
